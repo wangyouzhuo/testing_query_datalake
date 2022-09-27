@@ -1,1 +1,11 @@
 demo
+
+yum -y update
+#升级所有包同时也升级软件和系统内核；
+yum -y upgrade
+#只升级所有包，不升级软件和系统内核（默默的多介绍一种，此命令此处无需执行）
+yum install httpd
+
+https://www.jianshu.com/p/445aff106388
+
+yum install python-devel
